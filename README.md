@@ -12,13 +12,32 @@ Other than `title`, the app will render the `post` that you created in GraphCMS 
 
 ## How to Run :
 
-In the project directory, you can :
+In the project directory, you can run these commands :
 
-1) Install Dependencies :
-### `yarn`
+1) Create an application configuration file in JSON (`appConfig.json`), by copying `appConfig.dev.json` :
+```bash
+cp appConfig.dev.json appConfig.json
+```
 
-2) Run this app on your browser :
-### `yarn start`
+2) Please fill the `appConfig.json` with your GraphCMS URI. For example :
+```diff
+{
+- "GRAPHCMS_URI": ""
++ "GRAPHCMS_URI": "https://api-ap-northeast-1.graphcms.com/v2/dfe3e5s3r8j73qw3ds14276c/master"
+}
+```
+
+Unlike `appConfig.dev.json` that will handle application configuration for development environment, `appConfig.json` will not be tracked by Git (also not being uploaded to GitHub, GitLab, and other Git hosting services). So, this does not violate Config in The Twelve-Factor App (a methodology to build SaaS). For more, please have a look at https://12factor.net/config.
+
+3) Install Dependencies :
+```bash
+yarn
+```
+
+4) Run this app on your browser :
+```bash
+yarn start
+```
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
