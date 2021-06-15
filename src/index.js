@@ -8,11 +8,11 @@ import {
   ApolloClient, 
   InMemoryCache,
 } from "@apollo/client";
+import appConfig from './appConfig.json'; 
 
 // Connecting this site to the GraphQL API
 const client = new ApolloClient({
-  uri: 
-    "https://api-ap-northeast-1.graphcms.com/v2/cke1b4a2i1i5u01w8fk98293h/master",
+  uri: appConfig.GRAPHCMS_URI,
   cache: new InMemoryCache(),
 });
 
