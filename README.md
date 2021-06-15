@@ -1,6 +1,6 @@
 # React GraphQL Apollo Blog
 
-A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and GraphCMS as the GraphQL API provider.
+A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and [GraphCMS](https://graphcms.com/) as the GraphQL API provider.
 
 ## Demo
 
