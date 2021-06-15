@@ -1,8 +1,24 @@
-# React GraphQL Apollo Blog
+<br />
+<div align="center">
+  <h3 align="center">React-GraphCMS-Apollo Blog</h3>
 
-A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and [GraphCMS](https://graphcms.com/) as the GraphQL API provider.
+  <p align="center">
+    A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and GraphCMS (https://graphcms.com/) as the GraphQL API provider.
+    <br />
+    <a href="https://github.com/kevinadhiguna/RGA-blog/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/kevinadhiguna/RGA-blog/issues">Request a Feature</a>
+  </p>
+</div>
 
-## Demo
+<div align="center">
+  <img alt="ReactJS" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
+  <img alt="GraphQL" src="https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql" />
+  <img alt="Apollo GraphQL client" src="https://img.shields.io/badge/-Apollo_GraphQL-311C87?style=for-the-badge&logo=apollo-graphql" />
+</div>
+
+## 📺 Demo
 
 This app will show you the `title` you created in GraphCMS : <br><br>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/rga-blog/master/demo/1.png" width="90%"></img> <br><br>
@@ -10,7 +26,7 @@ This app will show you the `title` you created in GraphCMS : <br><br>
 Other than `title`, the app will render the `post` that you created in GraphCMS : <br><br>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/rga-blog/master/demo/2.png" width="90%"></img>
 
-## How to Run :
+## 📖 How to Run :
 
 In the project directory, you can run these commands :
 
