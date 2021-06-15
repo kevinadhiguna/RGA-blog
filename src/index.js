@@ -8,7 +8,12 @@ import {
   ApolloClient, 
   InMemoryCache,
 } from "@apollo/client";
-import appConfig from './appConfig.json'; 
+
+/**
+ * Import GRAPHCMS_URI from application configuration (from 'appConfig.json', NOT from 'appConfig.dev.json'). 
+ * Hence this does not violate The Twelve-Factor app. For more: https://12factor.net/config.
+ *  */
+import appConfig from './appConfig.json';
 
 // Connecting this site to the GraphQL API
 const client = new ApolloClient({
