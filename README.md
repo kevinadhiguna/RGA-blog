@@ -4,7 +4,7 @@
 
   <p align="center">
     A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and GraphCMS (https://graphcms.com/) as the GraphQL API provider.
-    <br />
+    <br /><br />
     <a href="https://github.com/kevinadhiguna/RGA-blog/issues">Report Bug</a>
     ·
     <a href="https://github.com/kevinadhiguna/RGA-blog/issues">Request a Feature</a>
@@ -21,10 +21,13 @@
 ## 📺 Demo
 
 This app will show you the `title` you created in GraphCMS : <br><br>
-<img src="https://raw.githubusercontent.com/kevinadhiguna/rga-blog/master/demo/1.png" width="90%"></img> <br><br>
+<img src="https://s6.gifyu.com/images/kjabfckjdvdsv.png" width="90%" /> <br><br>
 
 Other than `title`, the app will render the `post` that you created in GraphCMS : <br><br>
-<img src="https://raw.githubusercontent.com/kevinadhiguna/rga-blog/master/demo/2.png" width="90%"></img>
+<img src="https://s6.gifyu.com/images/dsvgrdger.png" width="90%" /> <br><br>
+
+For live preview, please visit <https://rga-blog-kevinadhiguna.netlify.app/> : <br><br>
+<img src="https://s6.gifyu.com/images/skldasl.png" width="90%" />
 
 ## 📖 How to Run :
 
