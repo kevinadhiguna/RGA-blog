@@ -18,6 +18,8 @@
   <img alt="Apollo GraphQL client" src="https://img.shields.io/badge/-Apollo_GraphQL-311C87?style=for-the-badge&logo=apollo-graphql" />
 </div>
 
+<br />
+
 ## 📺 Demo
 
 This app will show you the `title` you created in GraphCMS : <br><br>
@@ -28,6 +30,8 @@ Other than `title`, the app will render the `post` that you created in GraphCMS 
 
 For live preview, please visit <https://rga-blog-kevinadhiguna.netlify.app/> : <br><br>
 <img src="https://s6.gifyu.com/images/skldasl.png" width="90%" />
+
+<br />
 
 ## 📖 How to Run :
 
@@ -46,7 +50,9 @@ cp appConfig.dev.json appConfig.json
 }
 ```
 
-Unlike `appConfig.dev.json` that will handle application configuration for development environment, `appConfig.json` will not be tracked by Git (also not being uploaded to GitHub, GitLab, and other Git hosting services). So, this does not violate Config in The Twelve-Factor App (a methodology to build SaaS). For more, please have a look at https://12factor.net/config.
+Unlike `appConfig.dev.json` that will handle application configuration for development environment, `appConfig.json` will not be tracked by Git (also not being uploaded to GitHub, GitLab, and other Git hosting services). 
+
+So, this does not violate Config in The Twelve-Factor App (a methodology to build SaaS). For more, please have a look at https://12factor.net/config.
 
 3) Install Dependencies :
 ```bash
@@ -58,11 +64,12 @@ yarn
 yarn start
 ```
 
-Runs the app in the development mode.<br />
+Runs the app in the development mode. <br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
+The page will reload if you make edits. <br />
 You will also see any lint errors in the console.
 
+<br />
 
 ![Hello !](https://api.visitorbadge.io/api/VisitorHit?user=kevinadhiguna&repo=RGA-blog&label=thanks%20for%20dropping%20in%20!&labelColor=%23000000&countColor=%23FFFFFF)
