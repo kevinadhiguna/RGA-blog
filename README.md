@@ -3,7 +3,7 @@
   <h3 align="center">React-GraphCMS-Apollo Blog</h3>
 
   <p align="center">
-    A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and GraphCMS (https://graphcms.com/) as the GraphQL API provider.
+    A simple personal blog created using ReactJS, GraphQL with Apollo as GraphQL client and <a href="https://graphcms.com">GraphCMS</a> as the GraphQL API provider.
     <br /><br />
     <a href="https://github.com/kevinadhiguna/RGA-blog/issues">Report Bug</a>
     ·
